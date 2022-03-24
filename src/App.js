@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react'
+import { Header, Main } from './components'
+
+import GlobalState from './context/global-state'
 
 function App() {
+
+    const roasterStr = "lost-ark-roaster-tracker"
+    const localRoaster = JSON.parse(localStorage.getItem(roasterStr))
+    const [state, setState] = useState(localRoaster !== null ? localRoaster : [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalState.Provider value={[state, setState]}>
+        <Header/>
+        <Main/>
+      </GlobalState.Provider>
+    </>
   );
 }
 

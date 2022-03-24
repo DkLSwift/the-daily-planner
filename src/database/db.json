@@ -1,0 +1,322 @@
+{
+  "name": "lost-ark-tast-tracker",
+  "version": "0.1.0",
+  "classes": ["Berserker", "Paladin", "Gunlancer", "Striker", "Wardancer", "Scraper", "Soulfist",
+                "Gunslinger", "Artillerist", "Deadeye", "Sharpshooter", "Bard", "Sorceress", "Shadowhunter", "Deathblade" ],
+  "content": {
+    "chaosDungeon": [
+        {
+            "region": "north_vern",
+            "story_restriction": null,
+            "min_ilvl": 250,
+            "max_ilvl": 459,
+            "activities": [
+                {
+                    "name": "echo_one",
+                    "display_name": "Echo One",
+                    "min_ilvl": 250
+                },
+                {
+                    "name": "echo_two",
+                    "display_name": "Echo Two",
+                    "min_ilvl": 340
+                },
+                { 
+                    "name": "echo_three", 
+                    "display_name": "Echo Three",
+                    "min_ilvl": 380
+                },
+                {   
+                    "name":"echo_four",
+                    "display_name": "Echo Four",
+                    "min_ilvl": 420
+                }
+            ]
+        },
+        {   
+            "region": "rohendel",
+            "story_restriction": "Rohendel",
+            "min_ilvl": 460,
+            "max_ilvl": 620,
+            "activities": [
+                {
+                    "name": "phantom_one",
+                    "display_name": "Phantom One",
+                    "min_ilvl": 460
+                },
+                {
+                    "name": "phantom_two",
+                    "display_name": "Phantom Two",
+                    "min_ilvl": 500
+                },
+                { 
+                    "name": "phantom_three", 
+                    "display_name": "Phantom Three",
+                    "min_ilvl": 540
+                },
+                {   
+                    "name":"phantom_four",
+                    "display_name": "Phantom Four",
+                    "min_ilvl": 580
+                }
+            ]
+        }
+    ]
+    ,
+    "guardianRaid": [
+        {
+            "region": "north_vern",
+            "story_restriction": null,
+            "min_ilvl": 250,
+            "max_ilvl": 459,
+            "activities": [
+                {
+                    "name": "urnil",
+                    "display_name": "Ur'nil",
+                    "min_ilvl": 250
+                },
+                {
+                    "name": "lumerus",
+                    "display_name": "Lulmerus",
+                    "min_ilvl": 340
+                },
+                { 
+                    "name": "icy_legoros", 
+                    "display_name": "Icy Legoros",
+                    "min_ilvl": 380
+                },
+                {   
+                    "name":"vertus",
+                    "display_name": "Vertus",
+                    "min_ilvl": 420
+                }
+            ]
+            
+        },
+        {   
+            "region": "rohendel",
+            "story_restriction": "Rohendel",
+            "min_ilvl": 460,
+            "max_ilvl": 620,
+            "activities": [
+                {
+                    "name": "chromanium",
+                    "display_name": "Chromanium",
+                    "min_ilvl": 460
+                },
+                {
+                    "name": "nacrasena",
+                    "display_name": "Nacrasena",
+                    "min_ilvl": 500
+                },
+                { 
+                    "name": "flame_fox_yoho", 
+                    "display_name": "Flame Fox Yoho",
+                    "min_ilvl": 540
+                },
+                {   
+                    "name":"tytalos",
+                    "display_name": "Tytalos",
+                    "min_ilvl": 580
+                }
+            ]
+        },
+        {   
+            "region": "yorn",
+            "story_restriction": "Yorn",
+            "min_ilvl": 802,
+            "max_ilvl": 960,
+            "activities": [
+                {
+                    "name": "dark_legoros",
+                    "display_name": "Dark Legoros",
+                    "min_ilvl": 802
+                },
+                {
+                    "name": "helgaia",
+                    "display_name": "Helgaia",
+                    "min_ilvl": 840
+                },
+                { 
+                    "name": "calventus", 
+                    "display_name": "Calventus",
+                    "min_ilvl": 880
+                },
+                {   
+                    "name":"chates",
+                    "display_name": "Achates",
+                    "min_ilvl": 920
+                }
+            ]
+        },
+        {   
+            "region": "feiton",
+            "story_restriction": "Feiton",
+            "min_ilvl": 960,
+            "max_ilvl": 1302,
+            "activities": [
+                {
+                    "name": "forst_helgaia",
+                    "display_name": "Frost Helgaia",
+                    "min_ilvl": 960
+                },
+                {
+                    "name": "lava_chromanium",
+                    "display_name": "Lava Chromanium",
+                    "min_ilvl": 100
+                },
+                { 
+                    "name": "levanos", 
+                    "display_name": "Levanos",
+                    "min_ilvl": 1040
+                },
+                {   
+                    "name":"alberhastic",
+                    "display_name": "Alberhastic",
+                    "min_ilvl": 1080
+                }
+            ]
+        },
+        {   
+            "region": "punika",
+            "story_restriction": "Punika",
+            "min_ilvl": 1302,
+            "max_ilvl": 1470,
+            "activities": [
+                {
+                    "name": "armored_nacrasena",
+                    "display_name": "Armored Nacrasena",
+                    "min_ilvl": 1302
+                },
+                {
+                    "name": "igrexion",
+                    "display_name": "Igrexion",
+                    "min_ilvl": 1340
+                },
+                { 
+                    "name": "night_fox_yoho", 
+                    "display_name": "Night Fox Yoho",
+                    "min_ilvl": 1370
+                },
+                {   
+                    "name":"velganos",
+                    "display_name": "Velganos",
+                    "min_ilvl": 1385
+                }
+            ]
+        }
+    ]
+    ,
+    "abyssalDungeon": [
+        {   
+            "region": "north_vern",
+            "story_restriction": "North Vern",
+            "min_ilvl": 340,
+            "max_ilvl": 460,
+            "activities": [
+                {
+                    "name": "demon_beast_canyon",
+                    "display_name": "Demon Beast Canyon",
+                    "min_ilvl": 340
+                },
+                {
+                    "name": "necromancers_origin",
+                    "display_name": "Necromancer's Origin",
+                    "min_ilvl": 340
+                }
+            ]
+        },
+        {   
+            "region": "rohendel",
+            "story_restriction": "Rohendel",
+            "min_ilvl": 460,
+            "max_ilvl": 839,
+            "activities": [
+                {
+                    "name": "hall_of_the_twisted_warlord",
+                    "display_name": "Hall of the Twisted Warlord",
+                    "min_ilvl": 460
+                },
+                {
+                    "name": "hildebrandt_palace",
+                    "display_name": "Hildebrandt Palace",
+                    "min_ilvl": 460
+                }
+            ]
+        },
+        {   
+            "region": "yorn",
+            "story_restriction": "Yorn",
+            "min_ilvl": 840,
+            "max_ilvl": 959,
+            "activities": [
+                {
+                    "name": "road_of_lament",
+                    "display_name": "Road of Lament",
+                    "min_ilvl": 840
+                },
+                {
+                    "name": "forge_of_fallen_pride",
+                    "display_name": "Forge of Fallen Pride",
+                    "min_ilvl": 840
+                }
+            ]
+        },
+        {   
+            "region": "feyton",
+            "story_restriction": "Feyton",
+            "min_ilvl": 960,
+            "max_ilvl": 1324,
+            "activities": [
+                {
+                    "name": "sea_of_indolence",
+                    "display_name": "Sea of Indolence",
+                    "min_ilvl": 960
+                },
+                {
+                    "name": "tranquil_karkosa",
+                    "display_name": "Tranquil Karkosa",
+                    "min_ilvl": 960
+                },
+                {
+                    "name": "alarics_sanctuary",
+                    "display_name": "Alaric's Sanctuary",
+                    "min_ilvl": 960
+                }
+            ]
+        },
+        {   
+            "region": "punika",
+            "story_restriction": "Punika",
+            "min_ilvl": 1325,
+            "max_ilvl": 1470,
+            "activities": [
+                {
+                    "name": "airas_oculus",
+                    "display_name": "Aira's Oculus",
+                    "min_ilvl": 1325
+                },
+                {
+                    "name": "oreha_preveza",
+                    "display_name": "Oreha Preveza",
+                    "min_ilvl": 1325
+                }
+            ]
+        }
+    ],
+    "anguishedIsle": [
+        {
+            "region": "anguished_isle",
+            "story_restriction": null,
+            "min_ilvl": 860,
+            "max_ilvl": 1470,
+            "activities": [
+                {
+                    "name": "anguished_isle",
+                    "display_name": "anguished isle",
+                    "min_ilvl": 250
+                }]
+        }
+    ]
+    }
+}   
